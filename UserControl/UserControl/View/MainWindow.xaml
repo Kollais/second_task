@@ -1,0 +1,28 @@
+﻿<Window x:Class="UserControl.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UserControl.View"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="550"
+        Style="{DynamicResource DefWindow}">
+    <!--<Window.DataContext>
+        <local:ViewModel/>
+    </Window.DataContext>-->
+    
+    <Grid Margin="20" Style="{DynamicResource DefGrid}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <local:RotationManager Style="{DynamicResource RotationManager}" Grid.Row="0" Margin="100,150,80,200">
+            <local:CustomControl SliderValue="{Binding SliderValue}"
+                                 Style="{DynamicResource CustomContr}"
+                                 >
+                <!--local:RotationManager.Angle="{Binding Angle}"-->
+            </local:CustomControl>
+        </local:RotationManager>
+        <Button Content="Rotate" Grid.Row="1" Margin="150,00,150,0" Style="{DynamicResource RotateButton}" Click="RotateClick"/>
+    </Grid>
+</Window>

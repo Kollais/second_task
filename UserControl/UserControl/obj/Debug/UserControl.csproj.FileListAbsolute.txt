@@ -1,0 +1,15 @@
+c:\users\echernenko\documents\visual studio 2015\Projects\UserControl\UserControl\bin\Debug\UserControl.exe.config
+c:\users\echernenko\documents\visual studio 2015\Projects\UserControl\UserControl\bin\Debug\UserControl.exe
+c:\users\echernenko\documents\visual studio 2015\Projects\UserControl\UserControl\bin\Debug\UserControl.pdb
+c:\users\echernenko\documents\visual studio 2015\Projects\UserControl\UserControl\obj\Debug\View\MainWindow.g.cs
+c:\users\echernenko\documents\visual studio 2015\Projects\UserControl\UserControl\obj\Debug\App.g.cs
+c:\users\echernenko\documents\visual studio 2015\Projects\UserControl\UserControl\obj\Debug\UserControl_MarkupCompile.cache
+c:\users\echernenko\documents\visual studio 2015\Projects\UserControl\UserControl\obj\Debug\UserControl_MarkupCompile.lref
+c:\users\echernenko\documents\visual studio 2015\Projects\UserControl\UserControl\obj\Debug\View\MainWindow.baml
+c:\users\echernenko\documents\visual studio 2015\Projects\UserControl\UserControl\obj\Debug\UserControl.g.resources
+c:\users\echernenko\documents\visual studio 2015\Projects\UserControl\UserControl\obj\Debug\UserControl.Properties.Resources.resources
+c:\users\echernenko\documents\visual studio 2015\Projects\UserControl\UserControl\obj\Debug\UserControl.csproj.GenerateResource.Cache
+c:\users\echernenko\documents\visual studio 2015\Projects\UserControl\UserControl\obj\Debug\UserControl.exe
+c:\users\echernenko\documents\visual studio 2015\Projects\UserControl\UserControl\obj\Debug\UserControl.pdb
+c:\users\echernenko\documents\visual studio 2015\Projects\UserControl\UserControl\obj\Debug\Styles\DefaultStyle.baml
+c:\users\echernenko\documents\visual studio 2015\Projects\UserControl\UserControl\obj\Debug\GeneratedInternalTypeHelper.g.cs

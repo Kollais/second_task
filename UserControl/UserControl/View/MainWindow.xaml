@@ -4,25 +4,36 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UserControl.View"
+        xmlns:l="clr-namespace:UserControl.ViewModel"
+        xmlns:cc="clr-namespace:UserControl.CustomControl"
+        xmlns:rm="clr-namespace:UserControl.RotationManager"
         mc:Ignorable="d"
         Title="MainWindow" Height="550" Width="550"
         Style="{DynamicResource DefWindow}">
-    <!--<Window.DataContext>
-        <local:ViewModel/>
-    </Window.DataContext>-->
-    
+    <Window.Resources>
+        <ResourceDictionary >
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Styles/DefaultStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Window.DataContext>
+        <l:ViewModel x:Name="VM"></l:ViewModel>
+    </Window.DataContext>
+
     <Grid Margin="20" Style="{DynamicResource DefGrid}">
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
-        <local:RotationManager Style="{DynamicResource RotationManager}" Grid.Row="0" Margin="100,150,80,200">
-            <local:CustomControl SliderValue="{Binding SliderValue}"
-                                 Style="{DynamicResource CustomContr}"
-                                 >
-                <!--local:RotationManager.Angle="{Binding Angle}"-->
-            </local:CustomControl>
-        </local:RotationManager>
-        <Button Content="Rotate" Grid.Row="1" Margin="150,00,150,0" Style="{DynamicResource RotateButton}" Click="RotateClick"/>
+
+        <cc:CustomControl Grid.Row="0" Margin="100,150,80,200"
+                             SliderValue="{Binding SliderValue}"
+                             Style="{StaticResource CustomContr}"
+                             rm:RotationManager.Angle="{Binding Angle}">
+        </cc:CustomControl>
+
+        <Button Content="Rotate" Grid.Row="1" Margin="150,00,150,0" Style="{DynamicResource RotateButton}" Command="{Binding RotateClick}"/>
     </Grid>
 </Window>

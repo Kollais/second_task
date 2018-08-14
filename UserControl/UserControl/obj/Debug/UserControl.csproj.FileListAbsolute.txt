@@ -13,3 +13,4 @@ c:\users\echernenko\documents\visual studio 2015\Projects\UserControl\UserContro
 c:\users\echernenko\documents\visual studio 2015\Projects\UserControl\UserControl\obj\Debug\UserControl.pdb
 c:\users\echernenko\documents\visual studio 2015\Projects\UserControl\UserControl\obj\Debug\Styles\DefaultStyle.baml
 c:\users\echernenko\documents\visual studio 2015\Projects\UserControl\UserControl\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Echernenko\Documents\Visual Studio 2015\Projects\UserControl\UserControl\obj\Debug\UserControl.csprojResolveAssemblyReference.cache
